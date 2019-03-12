@@ -16,6 +16,7 @@ function updateViz(data){
         console.log(id);
         $(id).html(d['#capacity+value']);
     });
+    $('.sp-circle').remove();
 }
 
 function hxlProxyToJSON(input,headers){
@@ -46,5 +47,4 @@ function hxlProxyToJSON(input,headers){
     return output;
 }
 
-$('.sp-circle').remove();
 loadData();
