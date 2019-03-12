@@ -1,3 +1,3 @@
-# info_test
+# infotest
 
 https://simonbjohnson.github.io/infotest
